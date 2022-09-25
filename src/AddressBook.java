@@ -14,6 +14,10 @@ public class AddressBook {
         buddyInfos.remove(buddy);
     }
 
+    public List<BuddyInfo> infoBuddy(BuddyInfo buddy){
+        return buddyInfos;
+    }
+
 
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", "613");
